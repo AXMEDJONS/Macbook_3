@@ -1,0 +1,382 @@
+@media (max-width: 1042px) {
+    .container {
+        padding: 46px 97px;
+    }
+
+    .wrap-text {
+        width: 100%;
+
+        h1 {
+            font-size: 32px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 16px;
+        }
+    }
+
+    .wrap-img {
+        margin-top: 53px;
+    }
+
+    .left-side {
+        width: 250px;
+        height: 232px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .right-side {
+        max-width: 295px;
+        margin-left: 61px;
+
+        h1 {
+            font-size: 32px;
+            margin-top: 24px;
+        }
+
+        &-color {
+            font-size: 20px;
+            line-height: 26px;
+        }
+
+        &-price {
+            font-size: 32px;
+            margin-top: 24px;
+        }
+    }
+
+    .navigation {
+        max-width: 257px;
+        margin-top: 49px;
+    }
+
+    .top-buttons {
+        gap: 9px;
+
+        button {
+            width: 124px;
+            height: 34px;
+            border-radius: 8px;
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+
+    .bottom-buttons {
+        max-width: 257px;
+        margin-top: 29px;
+        gap: 4px;
+
+        button {
+            height: 46px;
+            border-radius: 8px;
+            padding: 0px 18px;
+
+            span {
+                font-size: 16px;
+                line-height: 20px;
+            }
+        }
+    }
+
+    .samo-okno {
+        width: 473px;
+        height: 310px;
+        padding: 50px 69px;
+
+        span {
+            font-size: 29px;
+            line-height: 35px;
+        }
+    }
+
+    .button-cross {
+        width: 19px;
+        height: 19px;
+        right: 13px;
+        top: 13px;
+    }
+
+    .input-top {
+        width: 336px;
+        height: 38px;
+        background: #DADADA;
+        border: 0px;
+        margin: 31px 0px 7px 0px;
+    }
+
+    .input-bottom {
+        width: 336px;
+        height: 38px;
+        background: #DADADA;
+        border: 0px;
+        margin: 0px 0px 7px 0px;
+    }
+
+    .button-submit {
+        width: 336px;
+        height: 38px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 817px) {
+    .container {
+        padding: 10px 50px 26px 50px;
+    }
+
+    .wrap-text {
+        h1 {
+            font-size: 24px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            margin-top: 12px;
+        }
+    }
+
+    .wrap-img {
+        flex-direction: column;
+        margin-top: 11px;
+    }
+
+    .left-side {
+        width: 250px;
+        height: 232px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .right-side {
+        margin-left: 0px;
+
+        h1 {
+            font-size: 24px;
+            line-height: 25px;
+            margin-top: 9px;
+        }
+
+        &-color {
+            font-size: 20px;
+            line-height: 26px;
+        }
+
+        &-price {
+            font-size: 24px;
+            line-height: 25px;
+            margin-top: 21px;
+        }
+    }
+
+    .navigation {
+        margin-top: 24px;
+    }
+
+    .bottom-buttons {
+        margin-top: 19px;
+    }
+
+    .samo-okno {
+        width: 355px;
+        height: 233px;
+        padding: 37px 41px;
+
+        span {
+            font-size: 22px;
+            line-height: 26px;
+        }
+    }
+
+    .button-cross {
+        width: 14px;
+        height: 14px;
+        right: 10px;
+        top: 10px;
+    }
+
+    .input-top {
+        width: 100%;
+        height: 29px;
+        margin: 23px 0px 5px 0px;
+    }
+
+    .input-bottom {
+        width: 100%;
+        height: 29px;
+        margin: 0px 0px 5px 0px;
+    }
+
+    .button-submit {
+        width: 100%;
+        height: 29px;
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .burger-menu {
+        display: flex;
+        width: 30px;
+        height: 30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        background-color: transparent;
+
+        span {
+            width: 17px;
+            height: 2px;
+            background-color: #A7A7A7;
+            border-radius: 2px;
+            transition: 300ms
+        }
+    }
+
+    .header-button {
+        display: block;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        border: 0px solid;
+        border-radius: 5px;
+
+        img {
+            width: 80%;
+            height: 80%;
+        }
+    }
+
+    .wrap-header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 615px) {
+    .container {
+        padding: 15px 15px;
+    }
+
+    .wrap-text {
+        h1 {
+            font-size: 18px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 16px;
+            margin-top: 8px;
+        }
+    }
+
+    .left-side {
+        width: 200px;
+        height: 186px;
+    }
+
+    .wrap-img {
+        flex-direction: column;
+    }
+
+    .navigation {
+        margin-top: 19px;
+    }
+
+    .bottom-buttons {
+        margin-top: 19px;
+    }
+
+    .samo-okno {
+        width: 296px;
+        height: 194px;
+        padding: 31px 43px;
+
+        span {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+
+    .button-cross {
+        width: 12px;
+        height: 12px;
+        right: 8px;
+        top: 8px;
+    }
+
+    .input-top {
+        height: 24px;
+        margin: 20px 0px 5px 0px;
+    }
+
+    .input-bottom {
+        height: 24px;
+        margin: 0px 0px 5px 0px;
+    }
+
+    .button-submit {
+        height: 24px;
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    .burger-menu {
+        display: flex;
+        width: 30px;
+        height: 30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        background-color: transparent;
+
+        span {
+            width: 17px;
+            height: 2px;
+            background-color: #A7A7A7;
+            border-radius: 2px;
+            transition: 300ms
+        }
+    }
+
+    .header-button {
+        display: block;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        border: 0px solid;
+        border-radius: 5px;
+
+        img {
+            width: 80%;
+            height: 80%;
+        }
+    }
+
+    .wrap-header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
